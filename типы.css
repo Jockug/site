@@ -1,0 +1,57 @@
+h1, h3{
+    text-align: center;
+}
+p, li{
+    font-size: 18px;
+}
+li a{
+    color:rgb(98, 98, 240);
+    text-decoration: none;
+}
+.attacs
+{
+    padding:50px;
+}
+h3{
+    font-size:25px;
+}
+.fishing img
+{
+    float:left;
+    margin:15px;
+}
+.fishing p{
+    font-size:18px;
+    padding:5px;
+}
+.border
+{
+    width: 500px;
+    border-top:3px solid black;
+}
+h4{
+    font-size:20px;
+}
+.brutforce_img
+{
+    width: 500px;
+    float:left;
+    margin:15px;
+}
+.ul_brutforce {
+    margin: 0;
+  }
+.ul_brutforce {
+    list-style-type: none;
+  }
+.ul_brutforce > li {
+    text-indent: -5px;
+  }
+.ul_brutforce > li:before {
+    content: "—";
+    text-indent: -5px;
+  }
+ul{
+    display: block;
+    margin-left: 0px;
+}
