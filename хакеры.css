@@ -1,0 +1,207 @@
+p, li
+{
+    font-size: 18px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+a{
+    text-decoration: none;
+}
+.p_center
+{
+    text-align: center;
+}
+.p_center p
+{
+    font-size: 20px;
+}
+.p_center a, .DS, .RE, .Cl
+{
+    font-size: 19px;
+}
+h1{
+    text-align: center;
+}
+.oglav
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+.types
+{
+    text-align: center;
+    font-size: 20px;
+}
+.background_Clop, .background_DS, .background_RE, .background_LB, .background_SEA, .background_FIN, .background_H, .background_121, .background_FB
+{
+    border-bottom: 3px solid rgb(48, 229, 48);
+    border-left: 3px solid rgb(48, 229, 48);
+    border-right: 3px solid rgb(48, 229, 48);
+    border-top: 3px solid rgb(48, 229, 48);
+    border-radius: 10px 10px;
+    padding-bottom: 15px;
+    text-align: justify;
+    margin-top:5px;
+}
+.background_DS
+{
+    background-color:black;
+    color:white;
+}
+img{
+    width: 400px;
+    position: relative;
+    left:35%;
+}
+.background_Clop{
+    background-color:rgb(255, 166, 1);
+    color:black;
+}
+.background_RE
+{
+    background-color: black;
+    color:white;
+}
+.background_H
+{
+    background-color: orangered;
+    color:black;
+}
+.background_LB
+{
+    background-color: #03a9f4;
+    color:black;
+}
+.background_SEA
+{
+    background-color: gray;
+    color:white;
+}
+.background_FIN
+{
+    background-color: darkred;
+    color:white;
+}
+.FIN, .SEA, .LB, .H, .RE, .CL, .DS, .g_121, .FB
+{
+    padding-top: 16px;
+}
+.background_121
+{
+    background-color: rgb(19, 18, 18);
+    color:white;
+}
+.background_FB
+{
+    background-color: rgb(90, 89, 89);
+    color:white;
+}
+.background_oglav
+{
+    background-size: cover;
+    background-image: url("https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663671792_6-mykaleidoscope-ru-p-zloi-khaker-vkontakte-6.jpg");
+    color:white;
+    margin: 0px;
+    position: sticky;
+}
+body{
+    background-color: rgb(28, 24, 52);
+    width: 100%;
+    height: 100%;
+    font-family: "BlackerSansLight", sans-serif;
+}
+.discribe
+{
+    color:white;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+.button{
+    width: 220px;
+    height: 30px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top:5px;
+}
+.button::before
+{
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+.button:active
+{
+    color: #000;
+}
+.button:active::after
+{
+    background: transparent;
+}
+.button:hover::before
+{
+    opacity: 1;
+}
+.button::after
+{
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+.white{
+    text-align: center;
+    font-size: 20px;
+}
+details > summary {
+    padding: 5px;
+    color: green;
+    cursor: pointer;
+    list-style: none;
+}
+
+details > div {
+    padding: 10px;
+}
+
+details[open] > summary {
+color:green; 
+background-color:#333;
+}
+summary:before {
+content: "+";
+}
+
+details[open] summary:before {
+content: "-";
+}
